@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container {
+    width: 80%;
+    margin: 0 50px;
+}
+
+.header-top {
+    background-color: #004400;
+    padding: 10px 0;
+    color: #ffffff;
+}
+
+.header-top p, .header-top a {
+    margin: 0;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.header-main {
+    background-color: #007700;
+    color: white;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.header-main h1 {
+    margin: 0;
+}
+
+.header-main p {
+    margin: 5px 0 0 0;
+}
+
+nav {
+    background-color: #1f811f;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    margin: 20px 50px;
+}
+
+article {
+    flex: 3;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+}
+
+.sidebar {
+    background-color: #f3f3f3;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #004400;
+    color: white;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-links, .footer-updates {
+    list-style: none;
+    padding: 0;
+    margin: 0 15px;
+}
+
+.footer-links b, .footer-updates b {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-links li, .footer-updates li {
+    margin-bottom: 5px;
+}
+
+.footer-links a, .footer-updates a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* .footer-links a:hover, .footer-updates a:hover {
+    text-decoration: underline;
+} */
+
+.footer-copy {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+a {
+    color: #21ca18;  /* Light green color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Optionally add underline on hover */
+}
